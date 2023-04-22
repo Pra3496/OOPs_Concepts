@@ -7,6 +7,7 @@
             ClassName className= new ClassName();
 
             className.printName();
+            className.printType("Pranav");
             Console.ReadKey();
         }
     }
