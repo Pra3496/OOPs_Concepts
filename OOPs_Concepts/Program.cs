@@ -5,10 +5,16 @@
         static void Main(string[] args)
         {
             ClassName className= new ClassName();
-
             className.printName();
             className.printType("Pranav");
-            Console.ReadKey();
+            
+
+            //default constructor
+            Constructor ctor = new Constructor();
+          
+            
+
+            
         }
     }
 }
