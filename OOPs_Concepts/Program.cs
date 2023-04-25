@@ -11,7 +11,8 @@
 
             //default constructor
             Constructor ctor = new Constructor();
-          
+            //Parameteriezed constructor
+            Constructor pctor = new Constructor("Pranav",25,'M');
             
 
             
