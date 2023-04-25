@@ -18,7 +18,9 @@
             Interface Myinterface = new Interface();
             Myinterface.WithoutImplementationMethod();
 
-
+            Console.WriteLine("EnumTypes : " + Project.FIFTH);
+            Console.WriteLine("EnumTypes : " + (int)Project.FIFTH);
+            Console.ReadKey();
 
         }
     }
