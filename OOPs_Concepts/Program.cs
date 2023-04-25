@@ -1,6 +1,6 @@
 ﻿namespace OOPs_Concepts
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -13,9 +13,13 @@
             Constructor ctor = new Constructor();
             //Parameteriezed constructor
             Constructor pctor = new Constructor("Pranav",25,'M');
-            
 
-            
+
+            Interface Myinterface = new Interface();
+            Myinterface.WithoutImplementationMethod();
+
+
+
         }
     }
 }
