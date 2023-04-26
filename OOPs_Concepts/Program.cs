@@ -38,6 +38,11 @@
 
             BaseClass parentClass= new BaseClass();
             parentClass.BaseClassVirtualMethod();
+
+            Console.WriteLine("\n Abstract Example");
+            TestAbstrct testAbstrct= new TestAbstrct();
+            testAbstrct.AbstractMethod();
+            testAbstrct.NonAbstractMethod();
             Console.ReadKey();
 
         }
